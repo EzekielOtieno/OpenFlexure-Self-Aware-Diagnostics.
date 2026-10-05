@@ -1,1 +1,14 @@
+# Core Numerical & Image Processing
+numpy>=1.21.0,<2.0.0
+opencv-python-headless>=4.5.0
+scipy>=1.7.0
+matplotlib>=3.3.0
 
+# OpenFlexure Server & LabThings Framework
+openflexure-microscope-server>=2.0.0
+labthings>=0.1.0
+Flask>=2.0.0
+pydantic>=1.8.0
+
+# Telemetry Logging & Serialization
+pandas>=1.3.0
