@@ -54,11 +54,11 @@ OpenFlexure-Self-Aware-Diagnostics/
 │   ├── radiometric_telemetry.py    # Radiometric settling & thermal lock
 │   ├── aging_telemetry.py          # Emitter degradation & SOH classification
 │   └── requirements.txt            # Python environment dependencies
-├── hardware/                       # Mechanical and 3D printing documentation
+├──
 ├── data/                           # Experimental validation & repeatability logs
 │   ├── radiometric_full_20min_20260828.csv
 │   └── repeatability_dataset_illumination.csv
-├── docs/                           # HardwareX documentation
+├                       
 │   └── Bill_of_Materials.csv       # Standardized BOM (dual builds + workstation)
 ├── LICENSE                         # GNU General Public License v3.0
 └── README.md                       # Master documentation file
