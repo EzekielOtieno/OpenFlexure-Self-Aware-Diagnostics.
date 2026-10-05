@@ -62,3 +62,35 @@ OpenFlexure-Self-Aware-Diagnostics/
 │   └── Bill_of_Materials.csv       # Standardized BOM (dual builds + workstation)
 ├── LICENSE                         # GNU General Public License v3.0
 └── README.md                       # Master documentation file
+---
+
+## Installation & Deployment
+
+### 1. Prerequisites
+* **Operating System:** Raspberry Pi OS (Debian 64-bit / 32-bit)
+* **Python Runtime:** Python >= 3.8
+* **Microscope Stack:** Operational `openflexure-microscope-server`
+
+### 2. Clone and Setup
+```bash
+git clone [https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git](https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git)
+cd OpenFlexure-Self-Aware-Diagnostics
+pip install -r software/requirements.txt
+sudo cp -r software /var/openflexure/extensions/microscope_extensions/self_aware_diagnostics
+sudo systemctl restart openflexure-microscope-server
+# Phase 1: Dual-gate optomechanical centroid verification
+python3 -m software.alignment_telemetry
+
+# Phase 2: Radiometric settling & thermal lock
+python3 -m software.radiometric_telemetry
+
+# Phase 3: Physical LED aging and State-of-Health (SOH) evaluation
+python3 -m software.aging_telemetry
+
+---
+
+### Action on GitHub
+1. Paste the block directly at the bottom of the editor.
+2. Scroll to the bottom of the page.
+3. Enter a commit message (e.g., `Complete README with setup, execution, and deployment steps`).
+4. Click the green **Commit changes** button.
