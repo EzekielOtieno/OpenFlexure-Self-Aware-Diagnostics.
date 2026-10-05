@@ -1,1 +1,13 @@
-
+Designator,Component,Number,Cost per unit (USD),Total cost (USD),Source of materials,Material type
+U1,Raspberry Pi 4 Model B,1,55.00,55.00,Raspberry Pi Foundation,Single-board Computer
+CTL1,Sangaboard Controller (Motor & Constant-Current LED Driver),1,25.00,25.00,OpenFlexure Community / Open Hardware,Motor & Illumination Controller
+CAM1,Raspberry Pi Camera Module v2 (8MP Sony IMX219 CMOS),1,25.00,25.00,Raspberry Pi Foundation,Optical Image Sensor
+OPT1,Finite-Conjugate Plan-Achromatic Oil-Immersion Objective Lens (100x),1,45.00,45.00,Standard Optics Supplier,Optical Objective
+OPT2,Achromatic Doublet Tube Lens (f ≈ 50 mm),1,18.00,18.00,Standard Optics Supplier,Optical Lens
+LED1,Neutral-White Surface-Mount Illumination LED,1,2.50,2.50,Standard Electronics Supplier,Optoelectronic Emitter
+MOT1-3,28BYJ-48 Geared Stepper Motors (X/Y/Z translation),3,3.00,9.00,Standard Robotics Supplier,Actuator
+MECH1,OpenFlexure v7.0.0-beta Chassis (3D-printed PLA),1,15.00,15.00,Fabricated (Original Prusa MK4S),Chassis / Structural
+HW1,Stainless Steel M3 Leadscrews with Captive Brass Nuts,3,2.00,6.00,Hardware Supplier,Mechanical Fastener / Drive
+HW2,Kinematic Preloading Tension O-Rings (Viton),3,0.50,1.50,Hardware Supplier,Mechanical Preload Element
+PWR1,5V 3A USB-C Power Supply,1,8.00,8.00,Standard Electronics Supplier,Power Supply
+CAB1,Micro-HDMI to Standard HDMI Cable & USB Interconnects,1,6.00,6.00,Standard Electronics Supplier,Cabling & Interfacing
