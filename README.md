@@ -31,3 +31,34 @@ Validated across dual physical builds with controlled fault-injection routines:
 ---
 
 ## Deterministic Three-Stage State Machine
+1. **Dual-Gate Alignment Lock (`alignment_telemetry.py`):** Sub-pixel tracking of illumination centroid coordinates to identify optomechanical creep, vibration, and mechanical relaxation.
+2. **Radiometric Thermal Lock (`radiometric_telemetry.py`):** Dynamic monitoring of sensor flux and thermal expansion until equilibrium conditions are achieved.
+3. **Continuous SOH Classification (`aging_telemetry.py`):** Evaluates chronic LED emission decay, updating baseline calibration logs and halting acquisition if flux drops below diagnostic limits.
+
+---
+
+## Regulatory & Quality Standard Alignment
+
+* **ISO 14971 (Clauses 7.1–7.3 - Risk Control):** Proactively prevents clinical false positives and negatives caused by underexposure, illumination inhomogeneity, and lateral mechanical slip during automated tile scanning.
+* **ISO 13485 (Clause 7.6 - Control of Monitoring and Measuring Devices):** Automates the continuous verification, status adjustment, and audit archiving of optoelectronic metrological integrity without requiring external laboratory equipment.
+
+---
+
+## Repository Architecture
+
+```text
+OpenFlexure-Self-Aware-Diagnostics/
+├── software/                       # Embedded diagnostic logic and server hooks
+│   ├── __init__.py
+│   ├── alignment_telemetry.py      # Dual-gate optomechanical tracking routine
+│   ├── radiometric_telemetry.py    # Radiometric settling & thermal lock
+│   ├── aging_telemetry.py          # Emitter degradation & SOH classification
+│   └── requirements.txt            # Python environment dependencies
+├── hardware/                       # Mechanical and 3D printing documentation
+├── data/                           # Experimental validation & repeatability logs
+│   ├── radiometric_full_20min_20260828.csv
+│   └── repeatability_dataset_illumination.csv
+├── docs/                           # HardwareX documentation
+│   └── Bill_of_Materials.csv       # Standardized BOM (dual builds + workstation)
+├── LICENSE                         # GNU General Public License v3.0
+└── README.md                       # Master documentation file
