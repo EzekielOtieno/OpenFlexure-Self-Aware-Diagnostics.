@@ -1,4 +1,4 @@
-Designator,Component,Number (2 Units),Unit Cost (USD),Total Cost (USD),Source of Materials,Material Type
+Designator,Component,Number,Unit Cost (USD),Total Cost (USD),Source of Materials,Material Type
 U1-U2,Raspberry Pi 4 Model B (4GB RAM),2,55.00,110.00,Raspberry Pi Approved Reseller,Single-board Computer
 CTL1-CTL2,Sangaboard v0.5 / v0.4 Motor & Illumination Controller,2,28.00,56.00,OpenFlexure Community / Open Hardware Supplier,Custom Motor & LED Driver PCB
 CAM1-CAM2,Raspberry Pi Camera Module v2 (8MP Sony IMX219),2,25.00,50.00,Raspberry Pi Approved Reseller,CMOS Image Sensor
@@ -12,3 +12,5 @@ HW7-HW12,Kinematic Preloading Viton O-Rings (Cross-section 2 mm ID 30 mm),6,0.60
 PWR1-PWR2,Official Raspberry Pi 15.3W USB-C Power Supply (5.1V 3A),2,8.00,16.00,Raspberry Pi Approved Reseller,External Power Supply
 CAB1-CAB2,Micro-HDMI to Standard HDMI Cables + USB Type-A to Type-B/Micro Interconnects,2,5.50,11.00,Standard Cabling Supplier,Interfacing / Video Cabling
 OIL1-OIL2,Standard Type-A Microscopy Immersion Oil (15 mL Dropper Bottle),2,6.50,13.00,Microscopy Consumables Vendor,Optical Consumable
+DISP1,Vitron 32-inch Smart LED Display (Benchtop Visual Workstation),1,110.00,110.00,Local Electronics Supplier (Kenya),External Display Monitor
+PER1,Standard USB Keyboard and Optical Mouse Set,1,10.00,10.00,Standard IT Supplier,User Input Peripherals
