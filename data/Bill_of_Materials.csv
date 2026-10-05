@@ -1,13 +1,14 @@
-Designator,Component,Number,Cost per unit (USD),Total cost (USD),Source of materials,Material type
-U1,Raspberry Pi 4 Model B,1,55.00,55.00,Raspberry Pi Foundation,Single-board Computer
-CTL1,Sangaboard Controller (Motor & Constant-Current LED Driver),1,25.00,25.00,OpenFlexure Community / Open Hardware,Motor & Illumination Controller
-CAM1,Raspberry Pi Camera Module v2 (8MP Sony IMX219 CMOS),1,25.00,25.00,Raspberry Pi Foundation,Optical Image Sensor
-OPT1,Finite-Conjugate Plan-Achromatic Oil-Immersion Objective Lens (100x),1,45.00,45.00,Standard Optics Supplier,Optical Objective
-OPT2,Achromatic Doublet Tube Lens (f ≈ 50 mm),1,18.00,18.00,Standard Optics Supplier,Optical Lens
-LED1,Neutral-White Surface-Mount Illumination LED,1,2.50,2.50,Standard Electronics Supplier,Optoelectronic Emitter
-MOT1-3,28BYJ-48 Geared Stepper Motors (X/Y/Z translation),3,3.00,9.00,Standard Robotics Supplier,Actuator
-MECH1,OpenFlexure v7.0.0-beta Chassis (3D-printed PLA),1,15.00,15.00,Fabricated (Original Prusa MK4S),Chassis / Structural
-HW1,Stainless Steel M3 Leadscrews with Captive Brass Nuts,3,2.00,6.00,Hardware Supplier,Mechanical Fastener / Drive
-HW2,Kinematic Preloading Tension O-Rings (Viton),3,0.50,1.50,Hardware Supplier,Mechanical Preload Element
-PWR1,5V 3A USB-C Power Supply,1,8.00,8.00,Standard Electronics Supplier,Power Supply
-CAB1,Micro-HDMI to Standard HDMI Cable & USB Interconnects,1,6.00,6.00,Standard Electronics Supplier,Cabling & Interfacing
+Designator,Component,Number (2 Units),Unit Cost (USD),Total Cost (USD),Source of Materials,Material Type
+U1-U2,Raspberry Pi 4 Model B (4GB RAM),2,55.00,110.00,Raspberry Pi Approved Reseller,Single-board Computer
+CTL1-CTL2,Sangaboard v0.5 / v0.4 Motor & Illumination Controller,2,28.00,56.00,OpenFlexure Community / Open Hardware Supplier,Custom Motor & LED Driver PCB
+CAM1-CAM2,Raspberry Pi Camera Module v2 (8MP Sony IMX219),2,25.00,50.00,Raspberry Pi Approved Reseller,CMOS Image Sensor
+OPT1-OPT2,Finite-Conjugate Plan-Achromatic 100x Oil-Immersion Objective (160/0.17 NA 1.25),2,42.00,84.00,Laboratory Optical Supplier / Standard Optics Vendor,Optical Objective
+OPT3-OPT4,Internal Achromatic Doublet Tube Lens (f = 50 mm DIA 12.7 mm),2,16.50,33.00,Thorlabs / Commercial Optics Reseller,Optical Tube Lens
+LED1-LED2,Neutral-White High-CRI Surface-Mount LED on Star PCB,2,2.50,5.00,Standard Electronics Distributor,Optoelectronic Emitter
+MOT1-MOT6,28BYJ-48 5V Geared Stepper Motors (X/Y/Z Actuation),6,2.20,13.20,Standard Mechatronics Supplier,Geared Actuator
+MECH1-MECH2,Chassis & Stage Structural Components (1.75 mm Prusament PLA filament ~1.2 kg total),2,22.00,44.00,Prusa Research / Fabricated on Original Prusa MK4S,Structural Thermoplastic
+HW1-HW6,Stainless Steel M3 Leadscrews (35 mm) with Captive Brass Nuts,6,1.80,10.80,Fastener / Motion Hardware Supplier,Linear Actuation Drive
+HW7-HW12,Kinematic Preloading Viton O-Rings (Cross-section 2 mm ID 30 mm),6,0.60,3.60,Standard O-Ring / Industrial Hardware Supplier,Mechanical Preload Element
+PWR1-PWR2,Official Raspberry Pi 15.3W USB-C Power Supply (5.1V 3A),2,8.00,16.00,Raspberry Pi Approved Reseller,External Power Supply
+CAB1-CAB2,Micro-HDMI to Standard HDMI Cables + USB Type-A to Type-B/Micro Interconnects,2,5.50,11.00,Standard Cabling Supplier,Interfacing / Video Cabling
+OIL1-OIL2,Standard Type-A Microscopy Immersion Oil (15 mL Dropper Bottle),2,6.50,13.00,Microscopy Consumables Vendor,Optical Consumable
