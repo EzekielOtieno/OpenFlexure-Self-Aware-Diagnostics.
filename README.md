@@ -43,22 +43,22 @@ Validated across dual physical builds with controlled fault-injection routines:
 
 ## Repository Architecture
 
-```text
 OpenFlexure-Self-Aware-Diagnostics/
-├── software/                       # Embedded diagnostic logic and server hooks
-│   ├── __init__.py                 # Server extension registration & Web GUI schema
-│   ├── alignment_telemetry.py      # Dual-gate optomechanical tracking routine
-│   ├── radiometric_telemetry.py    # Radiometric settling & thermal lock routines
-│   ├── aging_telemetry.py          # Emitter degradation & SOH classification
-│   └── requirements.txt            # Python environment dependencies
-├── data/                           # Experimental validation & repeatability logs
+├── software/
+│   ├── __init__.py
+│   ├── alignment_telemetry.py
+│   ├── radiometric_telemetry.py
+│   ├── aging_telemetry.py
+│   └── requirements.txt
+├── data/
 │   ├── radiometric_full_20min_20260828.csv
 │   └── repeatability_dataset_illumination.csv
-├── 
-│   └── Bill_of_Materials.csv       # Standardized BOM (dual builds + workstation)
-├── LICENSE                         # GNU General Public License v3.0
-└── README.md                       # Master documentation file
-
+├── images/
+│   └── (state machine diagrams and GUI screenshots)
+├── docs/
+│   └── Bill_of_Materials.csv
+├── LICENSE                         (GPLv3)
+└── README.md
 
 2. Clone and Setup
 git clone [https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git](https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git)
