@@ -43,6 +43,7 @@ Validated across dual physical builds with controlled fault-injection routines:
 
 ## Repository Architecture
 
+```text
 OpenFlexure-Self-Aware-Diagnostics/
 ├── software/
 │   ├── __init__.py
@@ -54,7 +55,7 @@ OpenFlexure-Self-Aware-Diagnostics/
 │   ├── radiometric_full_20min_20260828.csv
 │   └── repeatability_dataset_illumination.csv
 ├── images/
-│   └── (state machine diagrams and GUI screenshots)
+│   └── (setup photos, state machine diagrams, GUI screenshots)
 ├── docs/
 │   └── Bill_of_Materials.csv
 ├── LICENSE                         (GPLv3)
