@@ -61,7 +61,7 @@ OpenFlexure-Self-Aware-Diagnostics/
 └── README.md
 
 2. Clone and Setup
-git clone [https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git](https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git)
+git clone [https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics.git](https://github.com/EzekielOtieno/OpenFlexure-Self-Aware-Diagnostics..git)
 cd OpenFlexure-Self-Aware-Diagnostics
 pip install -r software/requirements.txt
 
